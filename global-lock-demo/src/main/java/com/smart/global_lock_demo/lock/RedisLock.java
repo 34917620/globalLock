@@ -30,7 +30,7 @@ public class RedisLock extends AbstractLock {
 	        	}
 	        	System.out.println(Thread.currentThread().getName()+"--上锁成功： "+lockPath);
 	        	
-	        	//这w
+	        	//这w232
 	        } else {
 	        	
 	            //设置失败，代表已经被锁
