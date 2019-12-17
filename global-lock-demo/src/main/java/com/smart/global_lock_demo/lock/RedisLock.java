@@ -29,6 +29,8 @@ public class RedisLock extends AbstractLock {
 	               stringRedisTemplate.expire(lockPath, expire, timeUnit); //设置超时时间
 	        	}
 	        	System.out.println(Thread.currentThread().getName()+"--上锁成功： "+lockPath);
+	        	
+	        	//这w
 	        } else {
 	        	
 	            //设置失败，代表已经被锁
