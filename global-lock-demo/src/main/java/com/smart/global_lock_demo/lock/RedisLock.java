@@ -30,6 +30,7 @@ public class RedisLock extends AbstractLock {
 	        	}
 	        	System.out.println(Thread.currentThread().getName()+"--上锁成功： "+lockPath);
 	        } else {
+	        	
 	            //设置失败，代表已经被锁
 	        	System.out.println(Thread.currentThread().getName()+"--上锁失败： "+lockPath);
 	            flag = false;
