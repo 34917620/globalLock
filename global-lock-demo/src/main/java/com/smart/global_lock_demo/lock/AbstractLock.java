@@ -16,5 +16,6 @@ public abstract class AbstractLock {
 
     public abstract void releaseLock(String lockPath) throws Exception;
     
+    
 }
 
